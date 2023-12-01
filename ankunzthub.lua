@@ -2519,12 +2519,12 @@ spawn(function()
     repeat
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>by quang vu <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>by quang vũ <Color=/>"):Display()
     wait(.36)
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Ankunzt Hub", HidePremium = false, IntroText = "Ankunzt Hub Library", SaveConfig = true, ConfigFolder = "Night Hub"})
+local Window = OrionLib:MakeWindow({Name = "Ankunzt Hub", HidePremium = false, IntroText = "Ankunzt Hub", SaveConfig = true, ConfigFolder = "Night Hub"})
 
 OrionLib:MakeNotification({
 	Name = "Ankunzt Hub",
@@ -2639,7 +2639,7 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("Script By LMNGAMING")
+W:AddLabel("Script By Ankunzt")
 
 local Section = W:AddSection({
     Name = "Update"
@@ -3336,7 +3336,7 @@ local Section = M:AddSection({
     Name = "Kaitun Met Vaiz"
 })
 
-M:AddParagraph("Kaitun/Cantay","Kaitun bản này đell khác gì bản kia.")
+M:AddParagraph("Kaitun/Cantay","Kaitun Ankunzt.")
 
 M:AddToggle({
     Name = "Kaitun[Ko có kill players]",
@@ -8857,7 +8857,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "NIGHT HUB BOT",
+                            Name = "Ankunzt HUB BOT",
                             Content = "Not Have Death Step",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8870,7 +8870,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "NIGHT HUB BOT",
+                            Name = "Ankunzt HUB BOT",
                             Content = "Not Have SharkMan Karate",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8883,7 +8883,7 @@ spawn(function()
                         end
                     else
                         gOrionLib:MakeNotification({
-                            Name = "NIGHT HUB BOT",
+                            Name = "Ankunzt HUB BOT",
                             Content = "Not Have Electric Claw",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8894,7 +8894,7 @@ spawn(function()
                         if game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon").Level.Value >= 400 or game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon").Level.Value >= 400 then
                             if string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman",true), "Bring") then
                                 OrionLib:MakeNotification({
-                                    Name = "NIGHT HUB BOT",
+                                    Name = "Ankunzt HUB BOT",
                                     Content = "Not Have Enough Material",
                                     Image = "rbxassetid://14919714384",
                                     Time = 5
@@ -8906,7 +8906,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "NIGHT HUB BOT",
+                            Name = "Ankunzt HUB BOT",
                             Content = "You Not Have Dragon Talon! ",
                             Image = "rbxassetid://14919714384",
                             Time = 5
