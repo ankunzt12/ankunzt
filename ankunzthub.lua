@@ -2519,38 +2519,29 @@ spawn(function()
     repeat
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
-    wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>Sau Vài ngày chìm nghỉm<Color=/>"):Display()
-    wait(.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>Thì Night Hub đã trở lại!!!!!<Color=/>"):Display()
-    wait(.14)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
-    wait(.24)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia disocrd để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
-    wait(.29)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Channel : LMNGAMING <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>by quang vu <Color=/>"):Display()
     wait(.36)
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Night Hub", HidePremium = false, IntroText = "NightHub Library", SaveConfig = true, ConfigFolder = "Night Hub"})
+local Window = OrionLib:MakeWindow({Name = "Ankunzt Hub", HidePremium = false, IntroText = "Ankunzt Hub Library", SaveConfig = true, ConfigFolder = "Night Hub"})
 
 OrionLib:MakeNotification({
-	Name = "Night Hub",
+	Name = "Ankunzt Hub",
 	Content = "Choose Teams Bro?",
 	Image = "rbxassetid://4483345998",
 	Time = 7
 })
 
 OrionLib:MakeNotification({
-	Name = "Night Hub",
-	Content = "Night Hub Not Skidder, Please don't says",
+	Name = "Ankunzt Hub",
+	Content = "Ankunzt Hub Not Skidder, Please don't says",
 	Image = "rbxassetid://4483345998",
 	Time = 25
 })
 
 OrionLib:MakeNotification({
-    Name = "Night Hub",
+    Name = "Ankunzt Hub",
     Content = "Please Wait loading script...,Do not enable any function",
     Image = "rbxassetid://4483345998",
     Time = 5
